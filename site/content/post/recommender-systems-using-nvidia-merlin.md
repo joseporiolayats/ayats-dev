@@ -3,6 +3,7 @@ title: Recommender Systems using Nvidia Merlin
 date: 2023-02-26T12:19:11.460Z
 description: We're going to explore Recommender Systems using Nvidia's
   opensource framework for recsys Merlin.
+image: https://avatars.githubusercontent.com/u/81591093?s=280&v=4
 ---
 
 
