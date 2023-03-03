@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-logo: "/img/logo.png"
+logo: "/img/logo_green.png"
 contact_entries:
   - heading: Location
     text: "Barcelona"
