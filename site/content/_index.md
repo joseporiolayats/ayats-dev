@@ -9,8 +9,8 @@ intro:
     heading: "What do I work with?"
     text: "I'm working in Python, I've coded in  R and SQL. The main libraries I use are PyTorch, Scikit-Learn, Numpy, Pandas, Polars. I'm deploying locally and in some free of charge app hosting services."
 products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
+    - image: img/illustrations-technologies.png
+      text: "Through the combined use of different frameworks, I code a different variety of projects in order to deliver the most fitting model with a focus on accuracy and the use of the different metrics regularly used in machine learning projects."
     - image: /img/illustrations-coffee-gear.svg
       text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
 values:
