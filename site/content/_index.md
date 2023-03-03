@@ -1,7 +1,7 @@
 ---
 title: "Ayats.dev"
 subtitle: Developer portfolio for JosepOriol Ayats
-image: /img/home-jumbotron.jpg
+image: /img/home-jumbotron.png
 blurb:
     heading: Who is JosepOriol Ayats?
     text: "Hi! I'm a Data Scientist currently doing AI projects on Computer Vision, Recommender Systems, Natural Language Processing and general Machine Learning Operations, as well as model lifecycle management"
