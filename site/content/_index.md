@@ -11,8 +11,8 @@ intro:
 products:
     - image: img/illustrations-technologies.png
       text: "Through the combined use of different frameworks, I code a different variety of projects in order to deliver the most fitting model with a focus on accuracy and the use of the different metrics regularly used in machine learning projects."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+    - image: /img/illustrations-mlops-cycle.png
+      text: "Today there is a need for full lifecycle management of the models used in production, so MLOps is the solution to that. By using some of the newest and most functional MLOps libraries I'm able to keep all the steps of the model lifecycle in check by doing an accurate planning, getting the right data, cleaning/augmenting/curating the data, training, finetuning, deploying and monitoring the model and its actual performance."
 values:
     heading: Our values
     text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.

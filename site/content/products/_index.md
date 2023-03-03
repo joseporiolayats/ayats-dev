@@ -16,12 +16,15 @@ intro:
         variety of projects in order to deliver the most fitting model with
         a focus on accuracy and the use of the different metrics regularly used
         in machine learning projects.
-    - image: /img/illustrations-coffee-gear.svg
+    - image: /img/illustrations-mlops-cycle.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Today there is a need for full lifecycle management of the models
+        used in production, so MLOps is the solution to that. By using
+        some of the newest and most functional MLOps libraries I'm able
+        to keep all the steps of the model lifecycle in check by doing
+        an accurate planning, getting the right data, cleaning/augmenting/curating
+        the data, training, finetuning, deploying and monitoring the model
+        and its actual performance.
     - image: /img/illustrations-tutorials.svg
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
