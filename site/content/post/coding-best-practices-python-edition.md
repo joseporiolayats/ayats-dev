@@ -17,3 +17,25 @@ image: img/3296882916_a_python_snake_typing_code_in_front_of_a_laptop__concept_a
 9. Use Virtual Environments
 10. Write Object-Oriented Code
 11. What Not to Do while Programming in Python
+
+```python
+from sqlalchemy import create_engine
+
+# Connect to a PostgreSQL database
+engine = create_engine('postgresql://username:password@host:port/database_name')
+
+# Execute a SQL query and return the results as a dataframe
+query = "SELECT * FROM table_name WHERE column_name > 100"
+df = pd.read_sql(query, engine)
+
+# Write a dataframe to a new table in the database
+df.to_sql('new_table_name', engine)
+```
+
+
+
+This post is heavily inspired by:
+
+[https://data-flair.training/blogs/python-best-practices](https://data-flair.training/blogs/python-best-practices/)[](https://medium.com/coriers/mlops-best-practices-59c0348e7125)
+
+<https://medium.com/coriers/mlops-best-practices-59c0348e7125>
