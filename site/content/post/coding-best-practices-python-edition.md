@@ -6,19 +6,16 @@ description: How to know if code is well written, structured, readable and will
   best practices are implemented and so the code will be of high quality.
 image: img/3296882916_a_python_snake_typing_code_in_front_of_a_laptop__concept_art__photorealistic__hq__4k.png
 ---
-1. Create a Code Repository and Implement Version Control
+1. Create a Code Repository and use Version Control
 2. Create Readable Documentation
 3. Follow Style Guidelines
 4. Correct Broken Code Immediately
 5. Use the PyPI Instead of Doing it Yourself
-6. The Zen of Python
-7. Use the Right Data Structures
-8. Write Readable Code
-9. Use Virtual Environments
-10. Write Object-Oriented Code
-11. What Not to Do while Programming in Python
-
-\  
+6. Use the Right Data Structures
+7. Write Readable Code
+8. Use Virtual Environments
+9. Write Object-Oriented Code
+10. What Not to Do while Programming in Python
 
 ## 1. VCS - Version Control System
 
@@ -42,11 +39,9 @@ Every project should contain the code files and additional markdown files in an 
 * license file
 * README.md
 
-Additionally, and much recommended, is to use a widespread and trustworthy structure with ***cookiecutter**.*
+Additionally, and much recommended, is to use a widespread and trustworthy structure with **\*cookiecutter**.*
 
 The documentation can be found [here.](https://cookiecutter.readthedocs.io/en/stable/)
-
-
 
 ## 2. Documentation
 
@@ -74,8 +69,6 @@ Links:
 * [Sphinx](www.sphinx-doc.org)
 * [MkDocs](mkdocs.org)
 
-
-
 ## 3. Style Guidelines
 
 In Python there is one standard above all:
@@ -94,19 +87,33 @@ Other tools are integrated in major IDEs like PyCharm or VSCode.
 
 ## 4. Correct Broken Code
 
+The code that doesn't work should never be pushed into the main development branch. 
+
+Instead, when a broken path is detected, one should open a PR, branch the code at that point, and fix it ASAP. Then petition to merge it into the main development branch.
+
+This methodology is effective at protecting the main development timeline and is called "Zero defects methodology".
+
 ## 5. Use Available Packages
 
-## 6. The Zen of Python
+The main power of Python is the widespread availability and ease of use of its infinite packages with infinite use-cases.
 
-## 7. Data Structures
+![pypi](img/pypi_logo.svg.png "Python Package Index pypi")
 
-## 8. Readable Code
+So whenever you need some special and repeatable method, first take a look around because chances are that someone faced it before... and packaged the solution. 
 
-## 9. Virtual Environments
+So don't waste your time.
 
-## 10. Be Object-Oriented
+Use PyPI, conda, github... but don't re-write.
 
-## 11. What to Avoid
+## 6. Data Structures
+
+## 7. Readable Code
+
+## 8. Virtual Environments
+
+## 9. Be Object-Oriented
+
+## 10. What to Avoid
 
 * Import **only the needed methods**, not all of them! You will avoid crashes, name collisions, better use of memory and speed. And it is also a good security measure.
 
@@ -142,7 +149,6 @@ Other tools are integrated in major IDEs like PyCharm or VSCode.
        API_SECRET=test-secret
      ```
   2. Add the **.env** file in the **.gitignore** file.
-
   3. In the ***main.py*** file, import and load the **dotenv** package with each secret by the key. The value will be passed through the secure package.
 
      ```python
@@ -156,7 +162,6 @@ Other tools are integrated in major IDEs like PyCharm or VSCode.
 
      print("API_KEY: ", api_key)
      print("API_SECRET: ", api_secret)
-
      ```
 
 This post is heavily inspired by:
