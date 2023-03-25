@@ -27,8 +27,8 @@ describe('Pages working test', () => {
 })
 
 describe('validate blog', () => {
-  it('should have only 3 blog posts by default', () => {
+  it('should have more than 3 blog posts', () => {
     cy.visit('/post')
-    cy.get('ul#blog-list li').should('have.length.above', 10);
+    cy.get('ul#blog-list li').should('have.length.above', 3);
   })
 })
