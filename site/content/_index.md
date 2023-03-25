@@ -1,13 +1,13 @@
 ---
 title: "Ayats.dev"
-subtitle: Developer portfolio for JosepOriol Ayats
+subtitle: Portfolio of Josep Oriol Ayats
 image: /img/home-jumbotron.png
 blurb:
-    heading: Who is JosepOriol Ayats?
+    heading: Who am I?
     text: "Hi! I'm a Data Scientist currently doing AI projects on Computer Vision, Recommender Systems, Natural Language Processing and general Machine Learning Operations, as well as model lifecycle management"
 intro:
     heading: "What do I work with?"
-    text: "I'm working in Python, I've coded in  R and SQL. The main libraries I use are PyTorch, Scikit-Learn, Numpy, Pandas, Polars. I'm deploying locally and in some free of charge app hosting services."
+    text: "I work in Python and also I've worked in R and SQL. The main libraries I use are PyTorch, Scikit-Learn, Numpy, Pandas, Polars. I'm deploying locally and in some free of charge app hosting services."
 projects:
     - image: img/illustrations-technologies.png
       text: "Through the combined use of different frameworks, I code a different variety of projects in order to deliver the most fitting model with a focus on accuracy and the use of the different metrics regularly used in machine learning projects."
