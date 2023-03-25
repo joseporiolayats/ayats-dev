@@ -8,6 +8,6 @@
 
 {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
 
-{{ partial "blog" (range first 4 (where .Data.Pages "Type" "post")) }}
+{{ partial "blog" . }}
 
 {{ end }}
