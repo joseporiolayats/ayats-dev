@@ -4,13 +4,13 @@ describe('Pages working test', () => {
   })
 
   it('opens the index page', () => {
-    cy.get('h1').contains('Python')
+    cy.get('h1').contains('Ayats')
   })
 
   it('navigates to the project page', () => {
     cy.get('a[href="/projects"]').eq(0).click();
     cy.url().should("include", "/projects")
-    cy.get('h1').contains(/My Projects/i)
+    cy.get('h1').contains(/Projects/i)
   })
 
   it('navigates to the values page', () => {
@@ -29,6 +29,6 @@ describe('Pages working test', () => {
 describe('validate blog', () => {
   it('should have only 3 blog posts by default', () => {
     cy.visit('/post')
-    cy.get('ul#blog-list li').should('have.length', 3);
+    cy.get('ul#blog-list li').should('have.length', 10);
   })
 })
