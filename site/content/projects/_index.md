@@ -89,7 +89,7 @@ pricing:
         - Unlimited varieties
       plan: Custom
       price: "?"
-type: products
+type: projects
 image: /img/products-jumbotron.png
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
