@@ -1,16 +1,16 @@
-describe('empty spec', () => {
+describe('Pages working test', () => {
   beforeEach(() => {
     cy.visit('/')
   })
 
   it('opens the index page', () => {
-    cy.get('h1').contains('Great coffee with a conscience')
+    cy.get('h1').contains('Python')
   })
 
-  it('navigates to the product page', () => {
+  it('navigates to the project page', () => {
     cy.get('a[href="/projects"]').eq(0).click();
     cy.url().should("include", "/projects")
-    cy.get('h1').contains(/Our Coffee/i)
+    cy.get('h1').contains(/My Projects/i)
   })
 
   it('navigates to the values page', () => {
