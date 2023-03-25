@@ -198,21 +198,33 @@ print("Result is: ",compute)
 #
 # Should be LIKE THIS
 #
-heighth = 1
+heigth = 1
 width = 2
 
-def area_rectanble(sidea,b):
+def area_rectangle(side_a:float,side_b:float)->float:
+    """
+    Returns the area of a rectangle in float by
+    entering both sides and multiplying them.
+
+    :param side_a: Length of the first side
+    :param side_b: Lenght of the second side
+    :return: The computed area.
+    :rtype: float
+
+    """
     return a*b
   
-area = area_rectangle(heighth,width)
+area = area_rectangle(heigth,width)
 print(f"The rectangle has {area} sqm")
 ```
 
-And yes, F'strings are very useful for that matter!
+And yes, [f'strings](https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/) are very useful for that matter!
 
 ## 8. Virtual Environments
 
 One virtual environment for every project. This is a golden rule. Every project starts with the virtual env creation.
+
+![virtual envs venv](img/python-venv-explained-header.png "Python virtual environments")
 
 There are many options for that matter:
 
