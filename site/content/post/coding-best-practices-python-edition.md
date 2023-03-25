@@ -18,21 +18,43 @@ image: img/3296882916_a_python_snake_typing_code_in_front_of_a_laptop__concept_a
 10. Write Object-Oriented Code
 11. What Not to Do while Programming in Python
 
+\  
+
+## 1. VCS - Version Control System
+
+## 2. Documentation
+
+## 3. Style Guidelines
+
+## 4. Correct Broken Code
+
+## 5. Use Available Packages
+
+## 6. The Zen of Python
+
+## 7. Data Structures
+
+## 8. Readable Code
+
+## 9. Virtual Environments
+
+## 10. Be Object-Oriented
+
+## 11. What to Avoid
+
+Import only the needed methods, not all of them! You will avoid crashes, name collusions, better use of memory and speed. And it is also a good security measure.
+
 ```python
-from sqlalchemy import create_engine
+# This is bad
+from sklearn.metrics import *
 
-# Connect to a PostgreSQL database
-engine = create_engine('postgresql://username:password@host:port/database_name')
+# This good
+from sklearn.metrics import confusion_matrix
 
-# Execute a SQL query and return the results as a dataframe
-query = "SELECT * FROM table_name WHERE column_name > 100"
-df = pd.read_sql(query, engine)
-
-# Write a dataframe to a new table in the database
-df.to_sql('new_table_name', engine)
+# Also this is good practice
+# importing multiple methods at once
+from sklearn.metrics import confusion_matrix, accuracy_score, f1_score
 ```
-
-
 
 This post is heavily inspired by:
 
