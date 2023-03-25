@@ -1,30 +1,23 @@
 ---
-title: Our Coffee
-type: products
-image: /img/products-jumbotron.png
-heading: What we offer
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+title: Projects
+heading: Projects
 intro:
   blurbs:
     - image: /img/illustrations-technologies.png
       text: >
         Through the combined use of different frameworks, I code a different
-        variety of projects in order to deliver the most fitting model with
-        a focus on accuracy and the use of the different metrics regularly used
-        in machine learning projects.
+        variety of projects in order to deliver the most fitting model with a
+        focus on accuracy and the use of the different metrics regularly used in
+        machine learning projects.
     - image: /img/illustrations-mlops-cycle.png
       text: >
-        Today there is a need for full lifecycle management of the models
-        used in production, so MLOps is the solution to that. By using
-        some of the newest and most functional MLOps libraries I'm able
-        to keep all the steps of the model lifecycle in check by doing
-        an accurate planning, getting the right data, cleaning/augmenting/curating
-        the data, training, finetuning, deploying and monitoring the model
-        and its actual performance.
+        Today there is a need for full lifecycle management of the models used
+        in production, so MLOps is the solution to that. By using some of the
+        newest and most functional MLOps libraries I'm able to keep all the
+        steps of the model lifecycle in check by doing an accurate planning,
+        getting the right data, cleaning/augmenting/curating the data, training,
+        finetuning, deploying and monitoring the model and its actual
+        performance.
     - image: /img/illustrations-tutorials.svg
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
@@ -39,7 +32,7 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
+  heading: Projects
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
@@ -63,20 +56,17 @@ main:
     image: /img/products-grid1.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
+    quote: The first time I tried Kaldi’s coffee, I couldn’t even believe that was
       the same thing I’ve been drinking every morning.
   - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+    quote: Kaldi is the place to go if you want the best quality coffee. I love
+      their stance on empowering farmers and transparency.
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions
-  description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+  description: We make it easy to make great coffee a part of your life. Choose
+    one of our monthly subscription plans to receive great coffee at your
+    doorstep each month. Contact us about more details and payment info.
   plans:
     - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
       items:
@@ -84,21 +74,25 @@ pricing:
         - Green or roasted beans"
         - One or two varieties of beans"
       plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-nsoving couples and bigger crowds'
+      price: "50"
+    - description: Great for avid drinkers, java-nsoving couples and bigger crowds
       items:
         - 6 lbs of coffee per month
         - Green or roasted beans
         - Up to 4 different varieties of beans
       plan: Big
-      price: '80'
+      price: "80"
     - description: Want a few tiny batches from different varieties? Try our custom plan
       items:
         - Whatever you need
         - Green or roasted beans
         - Unlimited varieties
       plan: Custom
-      price: '?'
+      price: "?"
+type: products
+image: /img/products-jumbotron.png
+description: Kaldi is the ultimate spot for coffee lovers who want to learn
+  about their java’s origin and support the farmers that grew it. We take coffee
+  production, roasting and brewing seriously and we’re glad to pass that
+  knowledge to anyone.
 ---
-
-
