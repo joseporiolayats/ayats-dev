@@ -22,9 +22,75 @@ image: img/3296882916_a_python_snake_typing_code_in_front_of_a_laptop__concept_a
 
 ## 1. VCS - Version Control System
 
+Version Control is critical for good tracking of each code modification and it's really good when working in conjunction with other developers.
+
+Version control is handled with git . The implementation can be local, in-house or cloud.
+
+For cloud the most popular platforms are:
+
+* [Github](www.github.com)
+* [GitLab](www.gitlab.com)
+* [Bitbucket](www.bitbucket.com)
+
+Every project should contain the code files and additional markdown files in an understable structure. The minimum is:
+
+* src/ folder
+* docs/ folder
+* test/ folder
+* requirements.txt
+* \_\_init\_\_.py, main.py, setup.py
+* license file
+* README.md
+
+Additionally, and much recommended, is to use a widespread and trustworthy structure with ***cookiecutter**.*
+
+The documentation can be found [here.](https://cookiecutter.readthedocs.io/en/stable/)
+
+
+
 ## 2. Documentation
 
+Every project needs some form of documentation. Even inline comments are the bare minimum, but one should expect to fulfill at least some docstrings inside classes and methods.
+
+The recommended use-case is Sphinx or MkDocs, making it auto-deployable using CI/CD tools like Github Actions.
+
+```python
+def get_random_ingredients(kind=None):
+    """
+    Return a list of random ingredients as strings.
+
+    :param kind: Optional "kind" of ingredients.
+    :type kind: list[str] or None
+    :raise lumache.InvalidKindError: If the kind is invalid.
+    :return: The ingredients list.
+    :rtype: list[str]
+
+    """
+    return ["shells", "gorgonzola", "parsley"]
+```
+
+Links:
+
+* [Sphinx](www.sphinx-doc.org)
+* [MkDocs](mkdocs.org)
+
+
+
 ## 3. Style Guidelines
+
+In Python there is one standard above all:
+
+[PEP8](https://peps.python.org/pep-0008/)
+
+Every programmer needs to know how to properly write Python code by following the PEP8 convention.
+
+![Python PEP8](img/6519207182729216.png "Python PEP8")
+
+There are a number of tools to check that at the testing stage, using pre-commit hooks with black and flake8 will ensure only PEP8 compliant code will get commited, else it will throw an error and point it out. 
+
+![Pre-commit workflow for Python](img/precommit_pipeline.png "Pre-commit workflow for Python")
+
+Other tools are integrated in major IDEs like PyCharm or VSCode.
 
 ## 4. Correct Broken Code
 
