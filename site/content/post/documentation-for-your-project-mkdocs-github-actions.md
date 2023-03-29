@@ -1,5 +1,5 @@
 ---
-title: Documentation for your project - MKDocs & Github Actions
+title: Documentation - MkDocs & Github Actions
 date: 2023-03-29T09:09:14.804Z
 description: >-
   Documentaion is the key to enable well mantained - and well used - packages,
