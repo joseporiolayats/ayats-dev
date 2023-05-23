@@ -26,32 +26,23 @@ projects:
       data, cleaning/augmenting/curating the data, training, finetuning,
       deploying and monitoring the model and its actual performance.
 values:
-  heading: My values
-  text: >
-    """
-
-    ## My Values
-
-
-    As a data scientist and machine learning engineer, I hold the following values:
+  heading: Key Values
+  text: >-
+    As a data scientist and machine learning engineer, my values revolve around
+    four key principles:
 
 
-    - **Clean Code**: I believe in writing code that is not only functional but also well-organized, readable, and maintainable. Clear and concise code makes collaboration and understanding easier for everyone involved.
+    Excellence: I strive for excellence in my work, consistently aiming to produce high-quality solutions. This involves adhering to best practices, staying up to date with the latest advancements in the field, and continuously honing my skills.
 
 
-    - **Collaboration**: I value working together with other team members, sharing knowledge, and fostering a supportive environment. Collaboration leads to innovative solutions and continuous learning.
+    Integrity: I believe in conducting my work with integrity and ethical practices. I prioritize data privacy, fairness, and transparency in all aspects of my projects. Trust and integrity are crucial for establishing meaningful collaborations and delivering reliable results.
 
 
-    - **Teamwork**: I believe in the power of teamwork and the diverse perspectives it brings. By leveraging each team member's strengths and collaborating effectively, we can achieve greater outcomes.
+    Collaboration: I strongly value collaboration and teamwork. I recognize that diverse perspectives and expertise enrich the problem-solving process. By fostering a collaborative environment, I can effectively communicate, share knowledge, and work together with others towards achieving common goals.
 
 
-    - **Best Practices Compliance**: I strive to follow industry best practices in data science and machine learning. This includes using appropriate methodologies, conducting thorough testing, and adhering to ethical standards.
+    Continuous Learning: The field of data science and machine learning is ever-evolving, and I embrace the mindset of continuous learning. I am dedicated to staying updated with new techniques, tools, and methodologies. This allows me to bring innovative and effective solutions to the table while maintaining a growth-oriented mindset.
 
 
-    - **Professionalism**: I maintain a high level of professionalism in my work, treating colleagues and stakeholders with respect, and ensuring clear and effective communication. A professional environment fosters productivity and trust.
-
-
-    - **Fun**: While maintaining professionalism, I also recognize the importance of a positive and enjoyable atmosphere. Having a sense of humor and finding joy in our work can enhance creativity and overall satisfaction.
-
-    """
+    By upholding these values, I strive to deliver exceptional results, foster positive working relationships, and contribute to the advancement of the data science and machine learning community.
 ---
