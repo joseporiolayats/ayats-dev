@@ -4,6 +4,7 @@ date: 2023-05-23T10:11:57.268Z
 description: This is a checklist of the basic steps in order to create a
   reproducible, flexible, adaptable environment for any kind of python project
   that has venv and package management using Poetry
+image: img/694996d49c6f40ad8940255caccb8ae6.png
 ---
 ## Project Structure
 
@@ -76,7 +77,7 @@ build-backend = "poetry.core.masonry.api"
 
 ## Project Documentation
 
-* Generate API documentation using tools like Sphinx or MkDocs.
+* Generate API documentation using MkDocs.
 * Add documentation files to the project, such as `README.md` and `docs/`.
 * Write clear and concise documentation for your project.
 
