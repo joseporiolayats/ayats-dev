@@ -1,12 +1,10 @@
 ---
 title: Base template for any Python project
 date: 2023-05-23T10:11:57.268Z
-description: This is the basic steps in order to create a reproducible,
-  flexible, adaptable environment for any kind of python project that has venv
-  and package management using Poetry
+description: This is a checklist of the basic steps in order to create a
+  reproducible, flexible, adaptable environment for any kind of python project
+  that has venv and package management using Poetry
 ---
-# Base Template for Python 3.11 Project
-
 ## Project Structure
 
 * Create a new directory for your project.
@@ -20,12 +18,12 @@ description: This is the basic steps in order to create a reproducible,
 * Initialize a new Poetry project: `poetry init`
 * Follow the prompts to configure your project.
 
-```yaml
+```toml
 [tool.poetry]
 name = "project_name"
 version = "0.1.0"
 description = "project_description"
-authors = \["joseporiolayats <oriol.ayats@gmail.com>"]
+authors = ["joseporiolayats <oriol.ayats@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 documentation = "https://joseporiolayats.github.io/my-github-repo"
@@ -44,16 +42,16 @@ ruff = "^0.0.269"
 pytest = "^7.3.1"
 pytest-asyncio = "^0.21.0"
 
-\[tool.poetry.group.docs.dependencies]
+[tool.poetry.group.docs.dependencies]
 mkdocs = "^1.4.3"
 mkdocs-material = "^9.1.14"
 mkdocstrings-python = "^1.0.0"
 
-\[tool.poetry.group.linst.dependencies]
+[tool.poetry.group.linst.dependencies]
 black = "^23.3.0"
 
-\[build-system]
-requires = \["poetry-core"]
+[build-system]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 ```
 
