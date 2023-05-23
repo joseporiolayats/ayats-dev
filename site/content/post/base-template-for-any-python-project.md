@@ -1,5 +1,5 @@
 ---
-title: Base template for any Python project
+title: Template for any Python project
 date: 2023-05-23T10:11:57.268Z
 description: This is a checklist of the basic steps in order to create a
   reproducible, flexible, adaptable environment for any kind of python project
@@ -29,7 +29,7 @@ license = "MIT"
 readme = "README.md"
 documentation = "https://joseporiolayats.github.io/my-github-repo"
 repository = "https://github.com/joseporiolayats/my-github-repo"
-keywords = ["tag1,"tag2","tag3"]
+keywords = ["tag1","tag2","tag3"]
 packages = [{include = "project_name" }]
 
 [tool.poetry.dependencies]
