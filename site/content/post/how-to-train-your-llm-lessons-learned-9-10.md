@@ -1,6 +1,6 @@
 ---
 title: "How to Train your LLM: Lessons Learned (9/10)"
-date: 2023-06-03T22:14:07.790Z
+date: 2023-06-04T22:14:07.790Z
 description: Lessons learned are invaluable takeaways that emerge from
   experiences and can provide valuable insights and knowledge for future
   endeavors. In this section, we reflect on the lessons learned throughout the
