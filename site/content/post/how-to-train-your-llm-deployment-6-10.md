@@ -1,5 +1,5 @@
 ---
-title: "How to Train your LLM: Deployment (6/10)"
+title: "How to Train your LLM: Deployment (7/10)"
 date: 2023-05-25T22:08:13.230Z
 description: Deployment is a critical phase in the software development
   lifecycle that involves releasing a solution into a live environment where it
@@ -9,7 +9,7 @@ description: Deployment is a critical phase in the software development
   approach to ensuring scalability and monitoring, we delve into the key aspects
   of successful deployment, empowering organizations to seamlessly deliver their
   solutions to production.
-image: ""
+image: img/eb626d49c77043feacd7d99a707cd97a.png
 ---
 # D﻿eployment for inference
 
