@@ -8,6 +8,7 @@ description: In the first part of this guide, we'll focus on the essential step
   extraction. Follow along as we explore practical techniques to prepare your
   data effectively for LLM training, setting the foundation for subsequent parts
   of the series.
+image: img/4d208dc9f3954cd6bb6f71392a95a3ed.png
 ---
 * D﻿ownloading the dataset 
 * M﻿erging all the datasets
