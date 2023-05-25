@@ -1,6 +1,6 @@
 ---
 title: ayats.dev
-subtitle: "{Developer blog of `JosepOriol Ayats`}"
+subtitle: "{Developer blog from `JosepOriol Ayats`}"
 image: /img/home-jumbotron.png
 blurb:
   heading: Who am I?
