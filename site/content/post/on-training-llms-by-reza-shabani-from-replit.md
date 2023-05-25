@@ -1,6 +1,6 @@
 ---
 title: On Training LLMs, by Reza Shabani from Replit
-date: 2023-05-25T19:07:27.883Z
+date: 2023-05-25T21:31:49.361Z
 description: In the first part of this guide, we'll focus on the essential step
   of preprocessing your data for training a Language Learning Model (LLM) in
   Python. Preprocessing involves transforming raw text data into a suitable
