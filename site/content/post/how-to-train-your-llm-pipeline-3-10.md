@@ -13,4 +13,17 @@ image: img/6d708ef2d8e34b2badfe798a32b0c710.png
 ---
 H﻿ow to define the right training pipeline?
 
-* a
+* The stack on HuggingFace
+
+  * L﻿arge corpus of permissively licensed code
+  * D﻿e-duped dataset available in parquet format
+* P﻿rocessing in Databricks
+
+  * R﻿un all of our processing and transformations in Databricks
+  * A﻿llows increased control compared to Transformers library
+  * M﻿akes it easier to introduce addictional data sources
+* I﻿ncluding propiertary data not on HF
+* P﻿reprocessing and transformations run in distributed fashion
+* T﻿ractable and extensible process
+
+  * L﻿ots of work done in notebooks
