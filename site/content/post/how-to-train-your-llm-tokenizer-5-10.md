@@ -1,5 +1,5 @@
 ---
-title: "How to train your LLM: Tokenizer (4/10)"
+title: "How to train your LLM: Tokenizer (5/10)"
 date: 2023-05-31T21:39:59.838Z
 description: We'll focus on training a tokenizer for your Language Learning
   Model (LLM) in Python. Tokenization is the process of splitting text into

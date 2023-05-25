@@ -1,5 +1,5 @@
 ---
-title: "How to train your LLM: Training (5/10)"
+title: "How to train your LLM: Training (6/10)"
 date: 2023-06-01T21:41:21.361Z
 description: The advancement of training techniques has transformed the
   landscape of large language models, enhancing their performance and
