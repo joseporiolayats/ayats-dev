@@ -9,6 +9,7 @@ description: In the second part of this guide, we'll focus on training a
   training and using a tokenizer in your LLM. By the end of this part, you'll
   have the knowledge and tools to train a tokenizer that aligns with your LLM's
   requirements, enhancing its language processing capabilities.
+image: img/830f839d688141e38b64fd1b4c53b9f6.png
 ---
 * T﻿okenizers are made up of an algorithm and vocabulary
 * M﻿any standard tokenizers are available from Hugging Face
