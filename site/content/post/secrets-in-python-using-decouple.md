@@ -3,6 +3,7 @@ title: "Secrets in Python: using Decouple"
 date: 2023-06-08T10:49:11.776Z
 description: Handling secrets in any app is challenging and critical, let's
   explore how to do it easily with Decouple
+image: img/8c543d8e3d1f427d9a991321090dc6a1.png
 ---
 First of all you have to configure the .gitignore file just in case for excluding the secrets file .env
 
