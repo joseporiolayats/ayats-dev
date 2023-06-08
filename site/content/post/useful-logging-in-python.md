@@ -3,6 +3,7 @@ title: Useful logging in Python
 date: 2023-06-08T10:23:16.971Z
 description: Logs are the winner approach to know what's going on inside your
   app. Let's configure it to get the best output!
+image: img/364d3017244340d38904a0d9649880c0.png
 ---
 ## D﻿irectory structure
 
