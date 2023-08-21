@@ -1,6 +1,6 @@
 ---
 title: "How to Train your LLM: Good LLM Engineer (10/10)"
-date: 2023-06-05T22:17:35.794Z
+date: 2023-06-02T21:47:00.000Z
 description: The role of an LLM (Language Model) Engineer is crucial in the
   development and optimization of powerful language models. In this section, we
   explore the qualities and skills that define a good LLM Engineer. From a deep
