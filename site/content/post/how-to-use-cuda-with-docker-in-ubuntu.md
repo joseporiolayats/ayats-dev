@@ -24,31 +24,29 @@ Whether you're a developer, researcher, or enthusiast, this guide will equip you
    s﻿udo apt update
    s﻿udo apt install docker.io
    ```
-
-3. **I﻿nstall nvidia-container-toolkit-base:**
+2. **I﻿nstall nvidia-container-toolkit-base:**
 
    Use apt to install the specific package from Nvidia to handle containers
 
    ```shell
    sudo apt install nvidia-container-toolkit-base
    ```
-4. **Generate CDI spec:**
+3. **Generate CDI spec:**
 
    This should include the NVIDIA Container Toolkit CLI (nvidia-ctk) and the version can be confirmed by running:
 
    ```shell
    sudo nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml
    ```
-5. **Setup NVIDIA Container Toolkit:**
+4. **Setup NVIDIA Container Toolkit:**
 
    Setup the package repository and the GPG key:
 
    ```shell
-   distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
    curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg   
-   curl -s -L https://nvidia.github.io/libnvidia-container/$distribution/libnvidia-container.list | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+   curl -s -L https://nvidia.github.io/libnvidia-container/ubuntu22.04/libnvidia-container.list | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
    ```
-6. **I﻿nstall nvidia-container-toolkit:**
+5. **I﻿nstall nvidia-container-toolkit:**
 
      Install the `nvidia-container-toolkit package` (and dependencies) after updating the package listing:
 
@@ -56,7 +54,7 @@ Whether you're a developer, researcher, or enthusiast, this guide will equip you
    ﻿  sudo apt update
    sudo apt install nvidia-container-toolkit
    ```
-7. **Configure Docker to use Nvidia:**
+6. **Configure Docker to use Nvidia:**
 
    Configure the Docker daemon to recognize the NVIDIA Container Runtime:
 
@@ -64,9 +62,9 @@ Whether you're a developer, researcher, or enthusiast, this guide will equip you
    sudo nvidia-ctk runtime configure --runtime=docker  
    sudo systemctl restart docker
    ```
-8. **Reboot now**
+7. **Reboot now**
    ﻿  Reboot the computer
-9. **Verify everything went well:**
+8. **Verify everything went well:**
 
       At this point, a working setup can be tested by running a base CUDA container:
 
