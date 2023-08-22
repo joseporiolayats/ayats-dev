@@ -51,7 +51,7 @@ Whether you're a developer, researcher, or enthusiast, this guide will equip you
      Install the `nvidia-container-toolkit package` (and dependencies) after updating the package listing:
 
    ```shell
-   ﻿  sudo apt update
+   sudo apt update
    sudo apt install nvidia-container-toolkit
    ```
 6. **Configure Docker to use Nvidia:**
@@ -75,23 +75,34 @@ Whether you're a developer, researcher, or enthusiast, this guide will equip you
       Which should output something like this:
 
    ```shell
-   +-----------------------------------------------------------------------------+
-   | NVIDIA-SMI 450.51.06    Driver Version: 450.51.06    CUDA Version: 11.0     |
-   |-------------------------------+----------------------+----------------------+
-   | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
-   | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
-   |                               |                      |               MIG M. |
-   |===============================+======================+======================|
-   |   0  Tesla T4            On   | 00000000:00:1E.0 Off |                    0 |
-   | N/A   34C    P8     9W /  70W |      0MiB / 15109MiB |      0%      Default |
-   |                               |                      |                  N/A |
-   +-------------------------------+----------------------+----------------------++-----------------------------------------------------------------------------+
-   | Processes:                                                                  |
-   |  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
-   |        ID   ID                                                   Usage      |
-   |=============================================================================|
-   |  No running processes found                                                 |
-   +-----------------------------------------------------------------------------+
+   Unable to find image 'nvidia/cuda:11.6.2-base-ubuntu20.04' locally
+   11.6.2-base-ubuntu20.04: Pulling from nvidia/cuda
+   56e0351b9876: Pull complete 
+   0e353182dfa4: Pull complete 
+   63add13c711b: Pull complete 
+   1210b79751b0: Pull complete 
+   eb1e2ff09225: Pull complete 
+   Digest: sha256:4b0c83c0f2e66dc97b52f28c7acf94c1461bfa746d56a6f63c0fef5035590429
+   Status: Downloaded newer image for nvidia/cuda:11.6.2-base-ubuntu20.04
+   Tue Aug 22 16:19:31 2023       
+   +---------------------------------------------------------------------------------------+
+   | NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+   |-----------------------------------------+----------------------+----------------------+
+   | GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+   | Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+   |                                         |                      |               MIG M. |
+   |=========================================+======================+======================|
+   |   0  NVIDIA GeForce RTX 2070        On  | 00000000:01:00.0  On |                  N/A |
+   | N/A   49C    P8              12W / 115W |    989MiB /  8192MiB |     19%      Default |
+   |                                         |                      |                  N/A |
+   +-----------------------------------------+----------------------+----------------------+
+                                                                                            
+   +---------------------------------------------------------------------------------------+
+   | Processes:                                                                            |
+   |  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+   |        ID   ID                                                             Usage      |
+   |=======================================================================================|
+   +---------------------------------------------------------------------------------------+
    ```
 
 N﻿ow you're ready to go!
