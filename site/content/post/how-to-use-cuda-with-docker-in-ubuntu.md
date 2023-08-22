@@ -24,13 +24,7 @@ Whether you're a developer, researcher, or enthusiast, this guide will equip you
    s﻿udo apt update
    s﻿udo apt install docker.io
    ```
-2. **I﻿nstall nvidia-container-toolkit:**
 
-   Use apt to install the specific package from Nvidia to handle containers
-
-   ```shell
-   sudo apt install -y nvidia-container-toolkit-base
-   ```
 3. **I﻿nstall nvidia-container-toolkit-base:**
 
    Use apt to install the specific package from Nvidia to handle containers
