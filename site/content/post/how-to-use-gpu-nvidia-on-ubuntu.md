@@ -28,57 +28,54 @@ Follow these steps to install CUDA drivers on the latest Ubuntu:
 1. **Check GPU Compatibility:**
    Ensure your GPU is compatible with the CUDA version you intend to install. Refer to NVIDIA's official documentation for compatibility details.
 
-Open up a terminal `Ctrl+Alt+T` and type
+   Open up a terminal `Ctrl+Alt+T` and type
 
-```shell
-lspci | grep -i nvidia
-```
+   ```shell
+   lspci | grep -i nvidia
+   ```
 
-T﻿he output should be shomething like this:
+   T﻿he output should be shomething like this:
 
-![nvidia checking](img/image_2023-08-22_164548862.png "Check if there is a Nvidia gpu in your system")
+   ![nvidia checking](img/image_2023-08-22_164548862.png "Check if there is a Nvidia gpu in your system")
 
-I﻿f there is no output, then you don't have a Nvidia GPU. Sorry.
+   I﻿f there is no output, then you don't have a Nvidia GPU. Sorry.
 
 2. **Update System:**
 
-```shell
-s﻿udo apt update
-s﻿udo apt upgrade -y
-```
+   ```shell
+   s﻿udo apt update
+   s﻿udo apt upgrade -y
+   ```
 
 3. **Nvidia drivers:**
    I﻿nstructions from the official nvidia driver installation guide for ubuntu 22.xx found [here](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#ubuntu).
 
-```shell
-sudo apt install linux-headers-$(uname -r)
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
-sudo dpkg -i cuda-keyring_1.1-1_all.deb
-sudo apt update
-sudo apt install cuda-drivers
-```
+   ```shell
+   sudo apt install linux-headers-$(uname -r)
+   wget           https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+   sudo dpkg -i cuda-keyring_1.1-1_all.deb
+   sudo apt update
+   sudo apt install cuda-drivers
+   ```
 
 4. **Disable default driver:**
    B﻿y disabling the default Nvidia driver from Canonical you will save a lot of trouble.
 
-```shell
-echo -e "blacklist nouveau\noptions nouveau modeset=0" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
-sudo update-initramfs -u
-```
+   ```shell
+   echo -e "blacklist nouveau\noptions nouveau modeset=0" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
+   sudo update-initramfs -u
+   ```
 
 5. **Reboot:**
    Reboot your system to apply the Nouveau driver changes.
 6. **CUDA package installation:**
    W﻿ith all the steps above, you can safely copy&paste this code block.
 
-```shell
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
-sudo dpkg -i cuda-keyring_1.1-1_all.deb
-sudo apt update
-sudo apt install cuda
-```
+   ```shell
+   sudo apt install cuda
+   ```
 
-###### C﻿odeblock from deb&network installation on Ubuntu 22.04 from Nvidia [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_network).
+   ###### C﻿odeblock from deb&network installation on Ubuntu 22.04 from Nvidia [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_network).
 
 7. **Reboot:**
    Reboot your system to get your CUDA up and running!
@@ -87,13 +84,13 @@ sudo apt install cuda
    T﻿he best way to check everything went well is to check **nvidia-smi**
 
 
-```shell
-nvidia-smi
-```
+   ```shell
+   nvidia-smi
+   ```
 
-T﻿he output should be like this, and with DRIVER VERSION and CUDA VERSION.
+   T﻿he output should be like this, and with DRIVER VERSION and CUDA VERSION.
 
-![nvidia-smi](img/image_2023-08-22_161926754.png "nvidia-smi")
+   ![nvidia-smi](img/image_2023-08-22_161926754.png "nvidia-smi")
 
 > The package manager will automatically update everything. True Gold.
 
